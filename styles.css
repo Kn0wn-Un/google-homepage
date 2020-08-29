@@ -1,0 +1,27 @@
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+}
+.top-items{
+    padding-right: 15px;
+    color: rgba(0, 0, 0, 0.87);
+}
+img{
+    height: 17px;
+    width: 17px;
+}
+button{
+    background-color: rgb(66, 133, 244);
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 30px;
+    width: 69.31px;
+    border: none;
+    border-radius: 5%;
+}
