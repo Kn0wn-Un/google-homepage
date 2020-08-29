@@ -1,3 +1,7 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
 .top-container{
     display: flex;
     flex-direction: row;
@@ -12,11 +16,11 @@
     padding-right: 15px;
     color: rgba(0, 0, 0, 0.87);
 }
-img{
+.top-container img{
     height: 17px;
     width: 17px;
 }
-button{
+.top-container button{
     background-color: rgb(66, 133, 244);
     color: white;
     font-family: Arial, sans-serif;
@@ -25,3 +29,38 @@ button{
     border: none;
     border-radius: 5%;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 47px;
+    height: 233px;
+}
+.logo img{
+    padding-top: 10px;
+    height: 92px;
+    width: 272px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    margin: -83px;
+}
+.searchbox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.search button{
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
+}
+
